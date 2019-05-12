@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class ABMINUS2 {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		int input = 0;
+		input = sc.nextInt();
+		
+		for(int i = input ; i>=1 ; i--){
+			System.out.println(i);
+		}
+		
+	}
+}
