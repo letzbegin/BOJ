@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	public static void main(String[] args) {
+		Scanner scan= new Scanner(System.in);
+        ArrayList<String> words = new ArrayList<>();
+        int line = 0;
+        while (scan.hasNextLine()) {
+            String word = scan.nextLine();
+            if (line>100||word.length()>100) {
+                break;
+            }
+            words.add(word);
+            line++;
+        }
+        scan.close();
+ 
+        for (int i = 0; i < words.size(); i++) {
+            System.out.println(words.get(i));
+        }
+	        
+	}
+}
