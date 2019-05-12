@@ -20,3 +20,6 @@ public class Main {
         }
     }
 }
+
+
+next(), nextLine(), hasNextLine()의 차이
