@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ABMINUS2 {
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		String input = null;
+		input = sc.next();
+		if(input.length()>10){
+			for(int i = 0 ; i<input.length();i++){
+				System.out.print(input.charAt(i));
+				if(i%10==9){
+					System.out.println();
+				}
+				
+			}
+			
+		}else{
+			System.out.println(input);
+		}
+	}
+}
